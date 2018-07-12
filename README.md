@@ -32,3 +32,4 @@ Skeleton of this project
 3. `npm install`
 4. `gulp build`
 5. `gulp`
+6. Go to `localhost:8080` in your browser
