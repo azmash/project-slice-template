@@ -1,11 +1,11 @@
-var gulp = require('gulp');
-var gulpMinifyCss = require('gulp-minify-css');
-var gulpConcat = require('gulp-concat');
-var gulpUglify = require('gulp-uglify');
-var gulpHtmlmin = require('gulp-htmlmin');
-var gulpConnect = require('gulp-connect');
-var clean = require('gulp-clean');
-var gulpSequence = require('gulp-sequence');
+const gulp = require('gulp');
+const gulpMinifyCss = require('gulp-minify-css');
+const gulpConcat = require('gulp-concat');
+const gulpUglify = require('gulp-uglify');
+const gulpHtmlmin = require('gulp-htmlmin');
+const gulpConnect = require('gulp-connect');
+const clean = require('gulp-clean');
+const gulpSequence = require('gulp-sequence');
 
 gulp.task('minify-css', function() {
   gulp.src('./public/asset/style/index.css')

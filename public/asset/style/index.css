@@ -25,48 +25,48 @@ body {
     margin: 4px 63px;
     transition-duration: .4s;
     cursor: pointer;
-  }
+}
 
-  .button3:hover {
+.button3:hover {
     background-color: #317c7e;
     color: #fff;
     border: 2px solid #fff;
-  }
+}
 
-  .head1 {
+.head1 {
     min-height: 650px; 
     background-color: #317C7E;
-  }
+}
   
-  .logo-head1 {
+.logo-head1 {
     width: 350px;
-  }
+}
 
-  .text-head1 {
+.text-head1 {
     margin-top: 150px;
     font-weight: bold; 
     color: #fff; 
     width: 60%; 
     word-wrap: break-word;
-  }
+}
 
-  .text-head2 {
+.text-head2 {
     margin-top: 50px;
     margin-bottom: 50px;
     font-weight: bold; 
     color: #fff; 
     width: 60%; 
     word-wrap: break-word;
-  }
+}
 
-  .head2 {
+.head2 {
     height: 650px; 
     background-repeat: repeat-x; 
     background-size: cover !important; 
     background: url('https://info.wonderlabs.io/hubfs/dev%20partner/Photos%20by%20Hitesh%20Choudhary%20on%20Unsplash.png?t=1531120507918');
-  }
+}
 
-  * {
+* {
     box-sizing: border-box;
 }
 
@@ -341,14 +341,14 @@ hr {
     color: #317C7E
   }
 
-  .circle:hover {
-      background-color: #317C7E;
-      color: white;
-  }
+.circle:hover {
+    background-color: #317C7E;
+    color: white;
+}
 
-  .buttonclick {
-    cursor: pointer;
-  }
+.buttonclick {
+cursor: pointer;
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 700px) {
@@ -375,17 +375,11 @@ hr {
 
   div.text-float {
     text-align: left;
-}
-
-  /* .contain {
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 25px;
-  } */
+  }
 
   .rev {
     flex-direction: row;
-}
+  }
 
   .content, .img-pad {
       padding-bottom: 50px;
