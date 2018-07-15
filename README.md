@@ -27,8 +27,8 @@ Skeleton of this project
 
 ## Setting up in your local machine
 
-1. `git clone git@github.com:azmash/slice-project.git`
-2. `cd slice-project`
+1. `git clone git@github.com:azmash/project-slice-template.git`
+2. `cd project-slice-template`
 3. `npm install`
 4. `gulp build`
 5. `gulp`
